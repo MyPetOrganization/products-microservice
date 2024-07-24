@@ -1,6 +1,4 @@
-import { Body, Controller, ParseIntPipe, Post } from "@nestjs/common";
-import { CreateProductDto } from "./dto/create-product.dto";
-import { UpdateProductDto } from "./dto/update-product.dto";
+import { Controller, ParseIntPipe } from "@nestjs/common";
 import { ProductService } from "./products.service";
 import { MessagePattern, Payload } from "@nestjs/microservices";
 import { CreateProductPayload } from "./interfaces/create-product-payload";
