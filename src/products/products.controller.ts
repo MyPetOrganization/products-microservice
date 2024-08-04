@@ -41,7 +41,6 @@ export class ProductsController {
                 path: ''
             };
         }
-
         return await this.productsService.create(id, createProductDto, file);
     }
 
